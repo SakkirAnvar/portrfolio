@@ -20,10 +20,18 @@ const ProjectsItems = ({ item }) => {
 
       <div className="project-content">
         <h3 className="project__title">{item.title}</h3>
+        <h3 className="project__desc">{item.shortDesc}</h3>
 
-        <a href={item.codeurl} target="_blank" className="project__button">
-          Code <i className="uil uil-github-alt project__button-icon"></i>
-        </a>
+        {item.codeurl && (
+          <a href={item.codeurl} target="_blank" className="project__button">
+            Code <i className="uil uil-github-alt project__button-icon"></i>
+          </a>
+        )} 
+        {!item.codeurl &&(
+          <a className="project__button disabled">
+            Private
+          </a>
+        )}
 
         {item.liveurl && (
           <a href={item.liveurl} target="_blank" className="project__button">
@@ -32,7 +40,7 @@ const ProjectsItems = ({ item }) => {
         )}
 
         {!item.liveurl && (
-          <a href="#" className="project__button disabled">
+          <a className="project__button disabled">
             Coming Soon...
           </a>
         )}
@@ -56,4 +64,5 @@ const ProjectsItems = ({ item }) => {
     </div>
   );
 };
+
 export default ProjectsItems;

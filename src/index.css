@@ -28,5 +28,8 @@ code {
   background-color: var(--container-color);
   border: 1px solid rgb(219, 217, 217);
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 

@@ -1,10 +1,10 @@
 import React from 'react'
-import CV from "../../assets/Sakkir Anvar A_Resume.pdf";
+import CV from "../../assets/Sakkir_Anvar_A_Resume.pdf";
 
 const Social = () => {
   return (
     <div className="home__social">
-        <a href="https://www.linkedin.com/in/sakkirkokkadan" className="home__social-icon" target={'_blank'}>
+        <a href="https://www.linkedin.com/in/sakkiranvar" className="home__social-icon" target={'_blank'}>
         <i className="uil uil-linkedin"></i>
         </a>
 
