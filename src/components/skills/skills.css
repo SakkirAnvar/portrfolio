@@ -1,109 +1,101 @@
 .skills__content {
-    display: flex;
-    justify-content: center;
-  }
-
+  display: flex;
+  justify-content: center;
+}
 .column {
-    text-align: center;
-  }
-  .skill_icon{
-    margin-bottom: 20px;
-  }
-
+  text-align: center;
+}
+.skill_icon {
+  margin-bottom: 20px;
+}
 .ibtn {
-    font-size: 2rem; /* Adjust the size as needed */
-    background-color: #3498db; /* Change to your desired background color */
-    color: white; /* Adjust text color for better visibility */
-    border-radius: 50%; /* Make it circular */
-    padding: 1rem; /* Adjust padding for spacing */
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-
-  .title {
-    color: var(--title-color); /* Adjust the title color */
-    font-size: 1.8rem; /* Adjust the title font size */
-    margin-bottom: 20px;
-  }
-  
-  .skill__subtitle  {
-    color:black; /* Adjust the subtitle color */
-    font-size: 16px; /* Adjust the subtitle font size */
-    font-weight: lighter;
-    margin-bottom: 20px;
-    line-height: 1.4;
-  }
-
-  .list-title{
-    color: var(--text-color); /* Adjust the subtitle color */
-    font-size: 16px; /* Adjust the subtitle font size */
-    font-weight: lighter;
-    margin: 30px 0px;
-    /* margin-bottom: 20px; */
-    line-height: 1.4;
-  }
-  
-
-  .skills__logo {
-    list-style: none;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    gap: 20px;
-    justify-content: center;
-  }
-  
-  .skills__logo img {
-    width: 100%;
-    max-width: 100%;
-    /* background-color: rgba(255, 252, 252, 0.089); */
-    height: auto;
-    padding: 5px;
-    border-radius: 8px; /* Add a border radius for rounded corners */
-    box-shadow: 2px 4px 12px rgba(0,0,0,.08);
-    transition: transform 0.3s ease-in-out; /* Add a smooth hover effect */
-  }
-  
-  .skills__logo li:last-child {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .skills__logo img:hover {
-    transform: scale(1.1); /* Add a slight scale-up effect on hover */
-  }
-
-.skills__logo img{
-    width: 80px;
-    aspect-ratio: 3/2;
-    object-fit: contain;
-    /* mix-blend-mode: color-burn; */
+  font-size: 2rem; /* Adjust the size as needed */
+  background-color: #3498db; /* Change to your desired background color */
+  color: white; /* Adjust text color for better visibility */
+  border-radius: 50%; /* Make it circular */
+  padding: 1rem; /* Adjust padding for spacing */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.title {
+  color: var(--title-color); /* Adjust the title color */
+  font-size: 1.8rem; /* Adjust the title font size */
+  margin-bottom: 20px;
 }
 
+.skill__subtitle {
+  color: black; /* Adjust the subtitle color */
+  font-size: 16px; /* Adjust the subtitle font size */
+  font-weight: lighter;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+.list-title {
+  color: var(--text-color); /* Adjust the subtitle color */
+  font-size: 16px; /* Adjust the subtitle font size */
+  font-weight: lighter;
+  margin: 30px 0px;
+  /* margin-bottom: 20px; */
+  line-height: 1.4;
+}
+
+.skills__logo {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.skills__logo img {
+  width: 100%;
+  max-width: 100%;
+  /* background-color: rgba(255, 252, 252, 0.089); */
+  height: auto;
+  padding: 5px;
+  border-radius: 8px; /* Add a border radius for rounded corners */
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease-in-out; /* Add a smooth hover effect */
+}
+
+.skills__logo li:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills__logo img:hover {
+  transform: scale(1.1); /* Add a slight scale-up effect on hover */
+}
+.skills__logo img {
+  width: 80px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  /* mix-blend-mode: color-burn; */
+}
 .skills__container {
-    background-color: white;
-    border-radius: 13px;
-    box-shadow: 2px 4px 12px rgba(0,0,0,.08);
-    padding: 20px;
-    grid-template-columns: repeat(2, 350px);
-    column-gap: 3rem;
-    justify-content: center;
-    position: relative;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  grid-template-columns: repeat(2, 350px);
+  column-gap: 3rem;
+  justify-content: center;
+  position: relative;
 }
 .skills__container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    border-left: .1px solid #ccc; /* Adjust the color as needed */
-    height: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 0.1px solid #ccc; /* Adjust the color as needed */
+  height: 100%;
 }
-
 /* .skills__content {
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -111,162 +103,149 @@
     border-radius: 1.25rem;
     padding: 2rem 4rem;
 } */
-
 /* .skills__title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     text-align: center;
     margin-bottom: var(--mb-1-5);
 }
-
 .skills__box {
     display: flex;
     justify-content: center;
     column-gap: 2.5rem;
 }
-
 .skills__group {
     display: grid;
     align-items: flex-start;
     row-gap: 1rem;
 }
-
 .skills__data {
     display: flex;
     column-gap: 0.5rem;
 }
-
 .skills .bx-badge-check {
     font-size: 1rem;
     color: var(--title-color);
 }
-
 .skills__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     line-height: 18px;
 }
-
 .skills__icon {
     font-size: var(--normal-font-size);
-
 }
-
 .section__subtitle {
     font-weight: var(--font-medium);
 } */
-
 /* .section__title {
     margin-bottom: var(--mb-3);
 } */
+/*=========================== Beakpoints ====================== */
+/* For large devices */
+@media screen and (max-width: 992px) {
+  /* Stack the skill sections vertically for better readability on smaller screens */
+  .skills__container {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
 
- /*=========================== Beakpoints ====================== */
-    /* For large devices */
-    @media screen and (max-width: 992px) {
-      /* Stack the skill sections vertically for better readability on smaller screens */
-      .skills__container {
-        grid-template-columns: 1fr;
-        column-gap: 0;
-        
-      }
-    
-      /* Adjust spacing and font sizes for smaller viewports */
-      .skills__content {
-        gap: 15px; /* Reduce gap between columns */
-      }
-    
-      .title {
-        font-size: 1.6rem;
-      }
-    
-      .skill__subtitle {
-        font-size: 14px;
-      }
-    
-      .skills__logo {
-        gap: 10px; /* Reduce gap between skills logos */
-        padding: 1.5rem;
-      }
-    
-      .skills__logo img {
-        width: 60px; /* Scale down logos for smaller screens */
-      }
-    
-      /* Adjust the separator for smaller width */
-      .skills__container::before {
-        /* width: 0.5px; */
-        content: "";
-          position: absolute;
-          top: 50%;
-          left: 0;
-          width: 100%;
-          height: 1px; 
-          background-color: #ccc; /* Adjust the color as needed */
-          transform: translateY(-50%);
-      }
+  /* Adjust spacing and font sizes for smaller viewports */
+  .skills__content {
+    gap: 15px; /* Reduce gap between columns */
+  }
 
-      
-    }
-    /* For medium devices */
-    
+  .title {
+    font-size: 1.6rem;
+  }
 
-    @media screen and (max-width: 576px) {
-        .skills__container {
-            grid-template-columns: 1fr;
-        }
+  .skill__subtitle {
+    font-size: 14px;
+  }
 
-        .skills__content {
-            padding: 1.5rem;
-        }
-        .skills__container::before {
-          content: "";
-          position: absolute;
-          top: 48%;
-          left: 0;
-          
-          width: 100%;
-          height: 1px; 
-          background-color: #ccc; /* Adjust the color as needed */
-          transform: translateY(-50%);
-      }
-        
-    }
+  .skills__logo {
+    gap: 10px; /* Reduce gap between skills logos */
+    padding: 1.5rem;
+  }
 
-    /* For smaller devices */
-    @media screen and (max-width: 350px) {
-      /* Layout Adjustments */
-      .skills__container {
-        grid-template-columns: 1fr; /* Switch to a single-column layout */
-      }
-    
-      /* Spacing and Margins */
-      .skills__content {
-        gap: 10px; /* Reduce gap between columns */
-      }
-    
-      .skills__logo {
-        gap: 5px; /* Reduce gap between logos */
-      }
-    
-      /* Font Sizes */
-      .title {
-        font-size: 1.4rem;
-      }
-    
-      .skill__subtitle {
-        font-size: 12px;
-      }
-    
-      /* Image Scaling */
-      .skills__logo img {
-        width: 50px; /* Adjust image size as needed */
-      }
-    
-      /* Text Wrapping */
-      .skill__subtitle {
-        white-space: normal; /* Allow wrapping for longer text */
-      }
-    
-      /* Other Adjustments */
-      /* ... */
-    }
+  .skills__logo img {
+    width: 60px; /* Scale down logos for smaller screens */
+  }
+
+  /* Adjust the separator for smaller width */
+  .skills__container::before {
+    /* width: 0.5px; */
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; /* Adjust the color as needed */
+    transform: translateY(-50%);
+  }
+}
+/* For medium devices */
+
+@media screen and (max-width: 576px) {
+  .skills__container {
+    grid-template-columns: 1fr; /* Single-column layout for the main container */
+  }
+  .skills__content {
+    padding: 1.5rem;
+  }
+  .skills__container::before {
+    content: "";
+    position: absolute;
+    top: 48%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; /* Adjust the color as needed */
+    transform: translateY(-50%);
+  }
+  .skills__logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns for skills logos */
+    gap: 15px; /* Adjust gap between items */
+    justify-content: center; /* Center-align the grid items */
+  }
+  .skills__logo img {
+    width: 60px; /* Adjust the size for medium screens */
+    aspect-ratio: 3/2;
+    object-fit: contain;
+  }
+}
+
+/* For smaller devices */
+@media screen and (max-width: 350px) {
+  /* Layout Adjustments */
+  .skills__container {
+    grid-template-columns: 1fr; /* Switch to a single-column layout */
+  }
+
+  .skills__logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Set two columns */
+    gap: 10px; /* Adjust gap between items */
+  }
+
+  /* Font Sizes */
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .skill__subtitle {
+    font-size: 12px;
+  }
+
+  /* Image Scaling */
+  .skills__logo img {
+    width: 50px; /* Adjust image size as needed */
+  }
+
+  /* Text Wrapping */
+  .skill__subtitle {
+    white-space: normal; /* Allow wrapping for longer text */
+  }
+}
