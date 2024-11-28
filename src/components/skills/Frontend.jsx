@@ -7,7 +7,7 @@ import reactlogo from '../../assets/react.png'
 
 const Frontend = () => {
   return (
-<div classname="skills__content">
+<div className="skills__content">
 <div className="column"><span className="skill__icon"><i className="ibtn bx bx-terminal" /></span>
     <h2 className="title is-size-4 is-spaced">Frontend Developer</h2>
     <p className="skill__subtitle">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
