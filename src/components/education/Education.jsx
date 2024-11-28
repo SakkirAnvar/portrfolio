@@ -79,7 +79,7 @@ const Education = () => {
               <div>
                 <h3 className="qualification__title">Bachelor of Arts</h3>
                 <span className="qualification__subtitle">
-                  Bharathiar University- Coimbatore.5{" "}
+                  Bharathiar University- Coimbatore.{" "}
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt cal"></i>2019 - 2022
